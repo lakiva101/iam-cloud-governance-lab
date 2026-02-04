@@ -1,0 +1,32 @@
+Mover/Governance Evidence (User Access Review)
+File Name: evidence/q1-access-certification.csv
+Description: This mimics a quarterly review of roles to prevent "Privilege Creep."
+User_ID,Department,Role_Assigned,Last_Login,Review_Decision,Manager_Approval,Notes
+j.doe_01,Finance,Billing-Admin,2026-02-01,KEEP,M.Logistics,"Role matches job function."
+a.vance_04,Marketing,Read-Only,2026-01-15,KEEP,S.Public,"Baseline access only."
+r.cho_09,Sales,Administrator,2025-12-20,REVOKE,B.Director,"User moved to Account Mgmt; Admin no longer required."
+t.stark_02,Engineering,Power-User,2026-02-03,KEEP,P.Potts,"Critical system access verified."
+
+3. Joiner Evidence (MFA Compliance Report)
+File Name: evidence/mfa-compliance-status.json
+Description: A mock system export proving that your "MFA on first login" policy is actually being enforced.
+{
+  "ReportName": "IAM-MFA-Compliance-Audit",
+  "GeneratedAt": "2026-02-04T17:00:00Z",
+  "ComplianceStatus": "100%",
+  "EvaluatedResources": [
+    {
+      "UserName": "new.hire.001",
+      "MFAEnabled": true,
+      "MFAType": "Virtual-TOTP",
+      "PolicyCompliance": "COMPLIANT"
+    },
+    {
+      "UserName": "new.hire.002",
+      "MFAEnabled": true,
+      "MFAType": "Hardware-Key",
+      "PolicyCompliance": "COMPLIANT"
+    }
+  ],
+  "AuditNote": "MFA enforcement policy verified via Service Control Policy (SCP) prevent-non-mfa-actions."
+}
