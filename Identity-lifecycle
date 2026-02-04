@@ -1,0 +1,29 @@
+joiner-mover-leaver.md
+
+## Identity Lifecycle Management
+
+### Joiner
+
+- User created via IAM
+
+- Assigned role based on department
+
+- MFA enforced on first login
+
+### Mover
+
+- Role access reviewed and updated
+
+- Previous permissions removed
+
+- Change documented for audit purposes
+
+### Leaver
+
+- Access disabled immediately
+
+- Keys and tokens revoked
+
+- User removed from all groups
+
+- Evidence retained for compliance
