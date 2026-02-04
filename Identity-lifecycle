@@ -4,13 +4,19 @@ joiner-mover-leaver.md
 
 ### Joiner
 
+- Manager put in a request or manager approval to onboard user 
+
 - User created via IAM
 
 - Assigned role based on department
 
+- Assign birthright access only
+
 - MFA enforced on first login
 
 ### Mover
+
+- New manager must approve the new role old manager have to sign off 
 
 - Role access reviewed and updated
 
@@ -20,10 +26,12 @@ joiner-mover-leaver.md
 
 ### Leaver
 
-- Access disabled immediately
+- Access disabled immediately <1 Hour of termination 
 
 - Keys and tokens revoked
 
 - User removed from all groups
 
-- Evidence retained for compliance
+- Immediate notification via HRIS intergration 
+
+- Audit Archival in referance SEC Rulke 17a-4 or SOC2 requirements 
