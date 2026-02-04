@@ -79,4 +79,4 @@ The organization must:
 
 - Support audit and compliance requirements (SOC 2, ISO 27001)
 
-- Provide clear, reviewable IAM evidence for auditors and stakeholders
+- Provide clear, reviewable IAM evidence for auditors and stakeholders.
