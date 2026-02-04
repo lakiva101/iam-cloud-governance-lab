@@ -64,3 +64,19 @@ Strong IAM governance is foundational to cloud security, compliance, and risk ma
 - Translate security frameworks into operational controls
 - Balance security requirements with business needs
 - Communicate IAM risk and control effectiveness to both technical and non-technical stakeholders
+
+---
+
+## Business Scenario
+
+This lab simulates a mid-sized SaaS company operating in AWS with approximately 150 employees across Engineering, IT Operations, Security, and Finance.
+
+The organization must:
+
+- Enforce least-privilege access
+
+- Manage identity lifecycle events (joiner, mover, leaver)
+
+- Support audit and compliance requirements (SOC 2, ISO 27001)
+
+- Provide clear, reviewable IAM evidence for auditors and stakeholders
