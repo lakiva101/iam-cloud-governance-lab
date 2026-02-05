@@ -76,3 +76,15 @@ No direct permissions are assigned to users.
 
 | NIST | AC-2, AC-5, AC-6 |
 
+## Governance Highlights
+
+- Role-based access control (RBAC)
+
+- Segregation of Duties (SoD)
+
+- IAM lifecycle management
+
+- Audit-ready documentation
+
+- Compliance alignment with SOC 2, ISO 27001, and NIST
+
