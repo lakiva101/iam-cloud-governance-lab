@@ -8,3 +8,4 @@ This document defines role-based access aligned to least privilege and segregati
 | Security-Audit | Security | Read-only IAM, CloudTrail, Config | Supports audits and investigations |
 | Finance-Billing | Finance | Billing & Cost Explorer | Financial oversight only |
 | IAM-Admin | Identity Mgmt | IAM role management | Access provisioning workflows |
+| IAM-Admin | Identity Mgmt | IAM role management | Access provisioning workflows |
