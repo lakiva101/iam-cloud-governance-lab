@@ -8,6 +8,6 @@ This folder contains sample artifacts demonstrating audit-ready IAM governance, 
 
 - Access review checklists
 
-- Control mapping matrices
+- Control mapping matrix
 
 - Logging and monitoring validation.
