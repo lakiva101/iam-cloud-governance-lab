@@ -18,33 +18,18 @@ No single role should be able to both implement and approve changes to productio
 
 
 
-## SoD Conflict Matrix
+# SoD Conflict Matrix
 
+| Role | Cannot Be Combined With | Reason / Business Risk |
+| :--- | :--- | :--- |
+| **Dev** | DevAdmin, IT-Ops | Prevents modifying production infrastructure without oversight. |
+| **DevAdmin** | Security, Audit, IAM-Admin | Prevents self-approval of access and security controls. |
+| **IT-Ops** | DevAdmin | Infrastructure operators should not control application deployment. |
+| **Security** | DevAdmin, IT-Ops | Prevents the security team from modifying systems they monitor. |
+| **IAM-Admin** | DevAdmin, Security, Audit | Prevents identity admins from granting themselves excessive access. |
+| **Audit** | All Admin Roles | Ensures auditors remain independent and have read-only access. |
+| **Finance** | Billing, DevAdmin | Prevents financial fraud and unauthorized system access. |
 
-
-| Role | Cannot Be Combined With | Reason |
-
-|-----|-------------------------|--------|
-
-| Dev | DevAdmin, IT-Ops | Prevents developers from deploying or modifying production infrastructure |
-
-| DevAdmin | Security, Audit, IAM-Admin | Prevents self-approval of access, security controls, or audit evidence |
-
-| IT-Ops | DevAdmin | Infrastructure operators should not control application deployment |
-
-| Security | DevAdmin, IT-Ops | Prevents security team from modifying systems they monitor |
-
-| IAM-Admin | DevAdmin, Security, Audit | Prevents identity admins from granting themselves or others excessive access |
-
-| Audit | All Admin Roles | Ensures auditors remain independent and read-only |
-
-| Support | Dev, DevAdmin, IT-Ops | Prevents customer data exposure and system modification |
-
-| Finance | Billing, DevAdmin | Prevents financial fraud and unauthorized system access |
-
-| Billing | Finance, DevAdmin | Separates invoice processing from financial oversight |
-
-| Product / Business-Ops | All Technical Admin Roles | Prevents business insight roles from operational control |
 
 ---
 
