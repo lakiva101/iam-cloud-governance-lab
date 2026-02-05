@@ -80,3 +80,24 @@ The organization must:
 - Support audit and compliance requirements (SOC 2, ISO 27001)
 
 - Provide clear, reviewable IAM evidence for auditors and stakeholders.
+
+
+
+
+## 📁 Project Navigation
+Click the links below to view specific audit artifacts:
+
+### 🏛️ Governance Pillars
+* [Role Matrix](Roles/iam-role-matrix.md) - Defined roles and least privilege.
+* [SoD Conflict Matrix](Roles/segregation-of-duties.md) - Segregation of Duties rules.
+* [Identity Lifecycle SOP](Identity-lifecycle.md) - The JML (Joiner/Mover/Leaver) process.
+
+### 📊 Audit Evidence
+* [MFA Compliance Report](evidence/Joiner-Evidence.md) - Joiner proof.
+* [User Access Review](evidence/Mover-Governance-Evidence.md) - Mover proof.
+* [Termination Audit Log](evidence/The-Termination-Log.md) - Leaver proof.
+
+### ⚖️ Compliance & Risk
+* [Risk Register](evidence/Risk%20Register.md) - Identified IAM risks.
+* [Compliance Mapping](evidence/Compliance%20Mapping.md) - NIST/SOC2 alignment.
+
