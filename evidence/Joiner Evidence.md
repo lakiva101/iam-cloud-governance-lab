@@ -1,6 +1,7 @@
-MFA Compliance Report 
-File Name: evidence/mfa-compliance-status.json
-Description: A mock system export proving that your "MFA on first login" policy is actually being enforced.
+# MFA Compliance Report
+**Description:** A mock system export proving that the "MFA on first login" policy is being enforced via Service Control Policy (SCP).
+
+```json
 {
   "ReportName": "IAM-MFA-Compliance-Audit",
   "GeneratedAt": "2026-02-04T17:00:00Z",
@@ -19,5 +20,5 @@ Description: A mock system export proving that your "MFA on first login" policy 
       "PolicyCompliance": "COMPLIANT"
     }
   ],
-  "AuditNote": "MFA enforcement policy verified via Service Control Policy (SCP) prevent-non-mfa-actions."
+  "AuditNote": "Verified via SCP 'prevent-non-mfa-actions'."
 }
